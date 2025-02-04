@@ -15,7 +15,8 @@ enableToc: true
 # Comment
 comment:
     # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
+​    disqus: waterai12
+
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
@@ -37,7 +38,7 @@ baidu:
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3  
+    id: UA-84134159-1  
     host: auto  
 
 
@@ -45,7 +46,7 @@ ga:
 #
 #
 #  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#  帮忙star一下，感谢~😆 地址： 
 #
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
