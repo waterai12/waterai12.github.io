@@ -1,12 +1,13 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 长线跃迁
+subtitle: 00后夫妻日常记录
+description: 记录我们的进步~
+
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: longtime
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://leopardpan.cn"
+avatarDesc: WaterK / 小耳冬
+url: "http://waterai12.github.io"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
@@ -20,8 +21,8 @@ comment:
 # Social
 social:
     weibo: 5366874726 
-    github: leopardpan
-    # zhihu: panpanleopard
+    github: waterai12
+    # zhihu: 小耳冬
     # juejin: xxx
     jianshu: 2ada30d8d0f7
     # twitter: 
@@ -75,5 +76,4 @@ nav:
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
-
 
