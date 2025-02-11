@@ -17,7 +17,11 @@ layout: default
     </p>
     </div>
   </header>
-
+ <!-- 添加搜索框 -->
+  <div id="search-box">
+    <input type="text" id="search-input" placeholder="Search...">
+    <div id="search-results"></div>
+  </div>
   {% if site.enableToc %}
     <h2 class="post-title">目录</h2>
     {% include toc.html html=content %}
