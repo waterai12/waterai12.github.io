@@ -35,3 +35,33 @@ layout: default
 
 {% include new-old.html %}
 {% include comments.html %}
+<!-- 添加搜索框 JavaScript 代码 -->
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.8.6/dist/algoliasearch-lite.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.19.2"></script>
+<script>
+  const searchClient = algoliasearch(
+    'YOUR_ALGOLIA_APP_ID',
+    'YOUR_ALGOLIA_SEARCH_ONLY_API_KEY'
+  );
+  const search = instantsearch({
+    indexName: 'YOUR_ALGOLIA_INDEX_NAME',
+    searchClient,
+  });
+  search.addWidgets([
+    instantsearch.widgets.searchBox({
+      container: '#search-input',
+    }),
+    instantsearch.widgets.hits({
+      container: '#search-results',
+      templates: {
+        item: `
+          <div>
+            <a href="{{url}}">{{title}}</a>
+            <p>{{{_highlightResult.content.value}}}</p>
+          </div>
+        `,
+      },
+    }),
+  ]);
+  search.start();
+</script>
